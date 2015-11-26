@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.janoz.vertx</groupId>
-    <artifactId>vertx-utils</artifactId>
+    <artifactId>vertx-reverse-proxy</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
@@ -25,12 +25,6 @@
     <dependency>
         <groupId>io.vertx</groupId>
         <artifactId>vertx-web</artifactId>
-        <version>${version.io.vertx}</version>
-    </dependency>
-
-    <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-jdbc-client</artifactId>
         <version>${version.io.vertx}</version>
     </dependency>
 </dependencies>
